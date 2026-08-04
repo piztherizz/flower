@@ -1,0 +1,96 @@
+.card {
+  border: 1px solid var(--color-border);
+  border-radius: 4px;
+  overflow: hidden;
+  transition: box-shadow 0.3s;
+  background-color: var(--color-white);
+  height: 100%;
+}
+
+.card:hover {
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.imageContainer {
+  position: relative;
+  overflow: hidden;
+}
+
+.image {
+  width: 100%;
+  height: auto;
+  display: block;
+  transition: transform 0.3s;
+}
+
+.card:hover .image {
+  transform: scale(1.05);
+}
+
+.badgeNew {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background-color: #5cb85c;
+  color: white;
+  padding: 2px 8px;
+  font-size: 12px;
+  z-index: 10;
+  border-radius: 2px;
+  text-transform: uppercase;
+}
+
+.badgeSale {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background-color: #d9534f;
+  color: white;
+  padding: 2px 8px;
+  font-size: 12px;
+  z-index: 10;
+  border-radius: 2px;
+  text-transform: uppercase;
+}
+
+.details {
+  padding: 15px;
+  text-align: center;
+}
+
+.title {
+  font-size: 16px;
+  margin-bottom: 10px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.title a {
+  transition: color 0.3s;
+}
+
+.title a:hover {
+  color: var(--color-green-btn);
+}
+
+.waBtn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  background-color: #25D366;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 14px;
+  width: 100%;
+  transition: background-color 0.3s;
+}
+
+.waBtn:hover {
+  background-color: #128C7E;
+  color: white;
+}

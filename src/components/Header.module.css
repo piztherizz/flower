@@ -1,0 +1,105 @@
+.header {
+  border-bottom: 1px solid var(--color-border);
+}
+
+.topBar {
+  background-color: var(--color-pink-header);
+  font-size: 14px;
+  padding: 8px 0;
+}
+
+.topBarInner {
+  display: flex;
+}
+
+.contactInfo span {
+  margin-right: 20px;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.topLinks {
+  display: flex;
+  gap: 20px;
+}
+
+.topTagline {
+  font-size: 13px;
+  color: inherit;
+  opacity: 0.85;
+  font-style: italic;
+}
+
+.linkWithIcon {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.currency {
+  cursor: pointer;
+}
+
+.mainHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 0;
+  flex-wrap: wrap;
+}
+
+.logoText {
+  font-size: 28px;
+  font-weight: 700;
+  color: var(--color-black);
+  text-transform: uppercase;
+  line-height: 1.1;
+  text-align: center;
+  background-color: var(--color-black);
+  color: var(--color-white);
+  padding: 10px 20px;
+  border-radius: 4px;
+}
+
+.quickLinks {
+  background-color: var(--color-cream-nav);
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  flex: 1;
+  margin: 0 30px;
+  border-radius: 4px;
+}
+
+.quickLinks a {
+  font-family: var(--font-pt-sans), sans-serif;
+  font-size: 15px;
+  padding: 5px 10px;
+  white-space: nowrap;
+}
+
+.whatsappOrderBtn {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background-color: #25D366;
+  color: var(--color-white);
+  padding: 10px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.whatsappOrderBtn:hover {
+  background-color: #128C7E;
+  color: white;
+}
+
+.cartText {
+  font-family: var(--font-pt-sans), sans-serif;
+}

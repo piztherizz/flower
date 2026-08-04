@@ -1,0 +1,61 @@
+.navWrapper {
+  background-color: var(--color-white);
+  border-top: 1px solid var(--color-border);
+  border-bottom: 2px solid var(--color-green-btn);
+}
+
+.nav {
+  display: flex;
+}
+
+.categoriesMenu {
+  background-color: var(--color-black);
+  color: var(--color-white);
+  width: 250px;
+  position: relative;
+}
+
+.catHeading {
+  padding: 15px 20px;
+  font-family: var(--font-pt-sans), sans-serif;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.horizontalMenu {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.horizontalMenu li {
+  border-right: 1px solid var(--color-border);
+}
+
+.horizontalMenu li:last-child {
+  border-right: none;
+}
+
+.horizontalMenu a {
+  display: block;
+  padding: 15px 20px;
+  font-family: var(--font-pt-sans), sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--color-text-main);
+  transition: all 0.3s;
+}
+
+.horizontalMenu a:hover {
+  background-color: var(--color-green-btn);
+  color: var(--color-white);
+}
+
+.homeIcon {
+  padding: 12px 20px !important;
+}
