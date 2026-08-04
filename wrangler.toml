@@ -1,0 +1,3 @@
+name = "flower"
+main = "src/index.js"  # <-- CHANGE THIS if your file is named index.ts or is in a different folder
+compatibility_date = "2026-08-04"
